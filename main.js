@@ -29,7 +29,7 @@ async function convertButton() {
     const convbtntag = document.getElementById("convbtn");
 
     const newconfig = oldToNewConfig(oldconftag.value)
-    navigator.clipboard.writeText(JSON.stringify(newconfig))
+    navigator.clipboard.writeText(JSON.stringify(newconfig, undefined, "    "))
 
     const _oldtxt = convbtntag.textContent
     convbtntag.textContent = "Result copied to clipboard!"
