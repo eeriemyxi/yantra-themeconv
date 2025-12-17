@@ -1,17 +1,17 @@
 # Yantra Theme Converter
 A tool to convert old-style theme posts for [Yantra Launcher](https://github.com/coderGtm/yantra-app-launcher) to the newer JSON theme files.
 ## Lore
-Formerly, [Yantra Launcher](https://github.com/coderGtm/yantra-app-launcher) had sufficed for publicly sharing themes by uploading
-them on a Discord server as a text post. A Discord bot named Curator was
-developed to standardise the posts. The Discord bot would upload the results to
-a text channel from where other users may manually apply the theme. Ultimately a
-more rigorous and convenient method was implemented where themes were instead
+Formerly, [Yantra Launcher](https://github.com/coderGtm/yantra-app-launcher) sufficed for publicly sharing themes by uploading
+them to a Discord server as text posts. A Discord bot named Curator was
+developed to standardise the posts and upload the results to
+a text channel from where other users could manually apply the theme. Ultimately, a
+more rigorous, convenient method was implemented where themes were instead
 shared as import/exportable JSON-serialized files.
 
-The older "themes," although they very much are just mere Discord posts, have
-now been deprecated. They are difficult to apply unless you manually convert
-them to JSON by hand; making a handful of old themes practically unusable. This
-tool accomplishes this conversion automatically for your convenience.
+The older "themes," although just Discord posts, have now been deprecated. They
+are difficult to apply unless you manually convert them to JSON, making
+a handful of old themes practically unusable. This tool accomplishes this
+conversion automatically for your convenience.
 
 # Demo
 https://github.com/user-attachments/assets/2a83e476-9980-4feb-ba37-a54f35e46f29
