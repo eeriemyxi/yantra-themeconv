@@ -1,14 +1,14 @@
 const SUBSTITUTES = {
     "Theme Name": "name",
     "Background Color": "bgColor",
-    "Command Color": "cmdColor",
-    "Suggestions Color": "suggestionsColor",
-    "Suggestions Bar Color": "suggestionsBgColor",
-    "Input Color": "inputAndBtnsColor",
-    "Normal Text & Arrow Color": "resultColor",
-    "Error Text Color": "errorColor",
-    "Positive Text Color": "successColor",
-    "Warning Text Color": "warnColor"
+    "Command Color": "commandColor",
+    "Suggestions Color": "suggestionTextColor",
+    "Suggestions Bar Color": "suggestionBgColor",
+    "Input Color": "inputLineTextColor",
+    "Normal Text & Arrow Color": "resultTextColor",
+    "Error Text Color": "errorTextColor",
+    "Positive Text Color": "successTextColor",
+    "Warning Text Color": "warningTextColor"
 }
 
 function oldToNewConfig(text) {
