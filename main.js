@@ -11,7 +11,7 @@ const SUBSTITUTES = {
     "Warning Text Color": "warnColor"
 }
 
-function oldToNewConfig(text) {
+const oldToNewConfig = (text) => {
     const newConfig = {}
 
     for (const line of text.split("\n")) {
@@ -26,7 +26,7 @@ function oldToNewConfig(text) {
     return newConfig
 }
 
-async function convertButton() {
+const convertButton = async () => {
     const oldConfTag = document.getElementById("old");
     const convBtnTag = document.getElementById("convbtn");
 
