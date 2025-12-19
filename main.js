@@ -16,7 +16,7 @@ const oldToNewConfig = (text) => {
 
     for (const line of text.split("\n")) {
         const [pseudoKey, value] = line.split(":** ")
-        const sub = SUBSTITUTES[pseudoKey.slice(2)]
+        const sub = SUBSTITUTES[pseudoKey?.slice(2)]
         if (!sub) continue;
         newConfig[sub] = (sub != "name" ? '#' : '') + value
     }
