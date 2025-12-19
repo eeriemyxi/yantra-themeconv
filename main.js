@@ -25,15 +25,15 @@ function oldToNewConfig(text) {
 }
 
 async function convertButton() {
-    const oldconftag = document.getElementById("old");
-    const convbtntag = document.getElementById("convbtn");
+    const oldConfTag = document.getElementById("old");
+    const convBtnTag = document.getElementById("convbtn");
 
-    const newconfig = oldToNewConfig(oldconftag.value)
-    navigator.clipboard.writeText(JSON.stringify(newconfig, undefined, "    "))
+    const newConfig = oldToNewConfig(oldConfTag.value)
+    navigator.clipboard.writeText(JSON.stringify(newConfig, undefined, "    "))
 
-    const _oldtxt = convbtntag.textContent
-    convbtntag.textContent = "Result copied to clipboard!"
-    oldconftag.value = ""
+    const _oldTxt = convBtnTag.textContent
+    convBtnTag.textContent = "Result copied to clipboard!"
+    oldConfTag.value = ""
     await new Promise(r => setTimeout(r, 2000));
-    convbtntag.textContent = _oldtxt
+    convBtnTag.textContent = _oldTxt
 }
