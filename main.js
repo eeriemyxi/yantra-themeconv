@@ -3,7 +3,7 @@ const SUBSTITUTES = {
     "Background Color": "bgColor",
     "Command Color": "cmdColor",
     "Suggestions Color": "suggestionsColor",
-    "Suggestions Bar Color": "suggestionsBgColor",
+    "Suggestion Bar Color": "suggestionsBgColor",
     "Input Color": "inputAndBtnsColor",
     "Normal Text & Arrow Color": "resultColor",
     "Error Text Color": "errorColor",
